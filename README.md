@@ -112,6 +112,11 @@ function defaultReplacer(key) {
 }
 ```
 
+## Inspiration
+
+My partner and I are building a React Native and Web app that utilize the same underlying Redux store. Since Blockstack does not yet fully support mobile (written 01/25/2018), we are using Redux Persist with the [redux-persist-expo-securestore](https://github.com/Cretezy/redux-persist-expo-securestore) to store encrypted data on the user's native device, while saving to Blockstack through Redux Persist on web.
+
+With `redux-persist-expo-securestore` and this library, `redux-persist-blockstack`, we can now simply swap out the storage driver when initializing the redux store, and redux-persist will watch the redux state of the data we've specified for it to watch and update Blockstack storage automatically.
 
 ## Note
 

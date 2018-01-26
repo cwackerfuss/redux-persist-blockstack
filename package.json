@@ -1,0 +1,13 @@
+{
+  "name": "redux-persist-blockstack",
+  "version": "0.1.0",
+  "description": "redux-persist storage for Blockstack's Gaia",
+  "main": "src/index.js",
+  "repository": "git@github.com:cwackerfuss/redux-persist-blockstack.git",
+  "author": "Chase Wackerfuss <cwackerfuss@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "peerDependencies": {
+    "blockstack": "^0.15.0"
+  }
+}

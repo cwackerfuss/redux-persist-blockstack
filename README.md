@@ -1,4 +1,4 @@
-# redux-persist-expo-securestore
+# redux-persist-blockstack
 
 Storage engine for [redux-persist](https://github.com/rt2zz/redux-persist) for use with [Blockstack Gaia ](https://github.com/blockstack/gaia).
 

@@ -1,4 +1,4 @@
-export default function createBlockstackStorage(blockstack, options = null) {
+export default function createBlockstackStorage(blockstack, options = {}) {
   const replacer = options.replacer || defaultReplacer;
 
   return {

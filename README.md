@@ -15,7 +15,7 @@ npm: `npm install --save redux-persist-blockstack`
 Use as a `redux-persist` global storage engine:
 
 ```js
-import createBlockstackStore from "redux-persist-expo-blockstack";
+import createBlockstackStore from "redux-persist-blockstack";
 import * as blockstack from "blockstack";
 
 import { compose, applyMiddleware, createStore } from "redux";
